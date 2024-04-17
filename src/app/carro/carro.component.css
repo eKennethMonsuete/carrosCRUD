@@ -1,0 +1,11 @@
+.lista-carros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.carro {
+  width: calc(50% - 20px); /* Define a largura das colunas (50% do contêiner pai - espaçamento) */
+  padding: 10px;
+  border: 1px solid #ccc;
+}

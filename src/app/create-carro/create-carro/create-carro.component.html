@@ -1,0 +1,20 @@
+<div class="col-md-6">
+  <div class="position-relative form-group">
+    <label for="nome" class="">Nome: </label>
+    <input [(ngModel)]="salvarCarro.nome" name="modelo" id="nome" placeholder="" type="text" class="form-control"></div>
+</div>
+
+<div class="col-md-6">
+  <div class="position-relative form-group">
+    <label for="modelo" class="">Modelo: </label>
+    <input [(ngModel)]="salvarCarro.modelo" name="modelo" id="modelo" placeholder="" type="text" class="form-control"></div>
+</div>
+
+<div class="col-md-6">
+  <div class="position-relative form-group">
+    <label for="cor" class="">cor: </label>
+    <input [(ngModel)]="salvarCarro.cor" name="cor" id="cor" placeholder="" type="text" class="form-control"></div>
+</div>
+
+<button (click)="cadastar()" class="mb-2 mr-2 btn btn-primary">CADASTRAR</button><br>
+<button routerLink="">VOLTAR</button>

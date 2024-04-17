@@ -1,0 +1,14 @@
+<h1>Lista:</h1>
+<button routerLink="/create" >CRIAR CARRO</button>
+
+<div class="lista-carros" >
+<div class="carro" *ngFor="let carros of listaCarro">
+  <p>{{carros.nome}}</p>
+  <p>{{carros.modelo}}</p>
+  <p>{{carros.cor}}</p>
+      <button routerLink="/delete/{{carros.id}}">EXCLUIR</button>
+      <button routerLink="/update/{{carros.id}}">ATUALIZAR</button>
+</div>
+</div>
+
+
